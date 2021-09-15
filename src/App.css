@@ -36,7 +36,7 @@
 .about-options .about-options-icon{
   padding: 0;
 }
-.about-options .about-options-icon i{
+.about-options .about-options-icon p{
   /* style={{paddingTop:"20px",paddingLeft:"10px",fontSize:"14px",color:"gray"}} */
 
   padding-top: 20px;

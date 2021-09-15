@@ -1,5 +1,9 @@
 import React,{useState} from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import {
+    faChevronDown , faChevronUp
+  } from '@fortawesome/free-solid-svg-icons';
 const About = () => {
     const [hidden, sethidden] = useState(true)
     const [hidden2, sethidden2] = useState(true)
@@ -20,7 +24,8 @@ const About = () => {
                             <p>Digital Strategy</p>
                         </div>
                         <div className="col-md-1 about-options-icon">  
-                            <i class= {hidden?"fas fa-chevron-down":"fas fa-chevron-up"} onClick={()=>sethidden(!hidden)} ></i>
+                            <p><FontAwesomeIcon icon={hidden? faChevronDown : faChevronUp} onClick={()=>sethidden(!hidden)}/></p>
+                            {/* <i class= {hidden?"fas fa-chevron-down":"fas fa-chevron-up"} onClick={()=>sethidden(!hidden)} ></i> */}
                         </div>
                         
                     </div>
@@ -38,7 +43,7 @@ const About = () => {
                             <p>Branding</p>
                         </div>
                         <div className="col-md-1 about-options-icon">  
-                        <i class= {hidden2?"fas fa-chevron-down":"fas fa-chevron-up"} onClick={()=>sethidden2(!hidden2)} ></i>
+                        <p><FontAwesomeIcon icon={hidden2? faChevronDown : faChevronUp} onClick={()=>sethidden2(!hidden2)}/></p>
                         </div>
                         
                     </div>
@@ -56,7 +61,7 @@ const About = () => {
                             <p>Web Design</p>
                         </div>
                         <div className="col-md-1 about-options-icon">  
-                            <i class={hidden3?"fas fa-chevron-down":"fas fa-chevron-up"}  onClick={()=>sethidden3(!hidden3)} ></i>
+                        <p><FontAwesomeIcon icon={hidden3? faChevronDown : faChevronUp} onClick={()=>sethidden3(!hidden3)}/></p>
                         </div>
                         
                     </div>
@@ -74,7 +79,7 @@ const About = () => {
                             <p>Development</p>
                         </div>
                         <div className="col-md-1 about-options-icon">  
-                        <i class={hidden4?"fas fa-chevron-down":"fas fa-chevron-up"}  onClick={()=>sethidden4(!hidden4)} ></i>
+                        <p><FontAwesomeIcon icon={hidden4? faChevronDown : faChevronUp} onClick={()=>sethidden4(!hidden4)}/></p>
                         </div>
                         
                     </div>
@@ -92,7 +97,7 @@ const About = () => {
                             <p>Content Development</p>
                         </div>
                         <div className="col-md-1 about-options-icon">  
-                        <i class={hidden6?"fas fa-chevron-down":"fas fa-chevron-up"}  onClick={()=>sethidden6(!hidden6)} ></i>
+                        <p><FontAwesomeIcon icon={hidden6? faChevronDown : faChevronUp} onClick={()=>sethidden6(!hidden6)}/></p>
                         </div>
                         
                     </div>

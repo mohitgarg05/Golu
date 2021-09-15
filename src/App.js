@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Home from './Home'
+import About from './About'
+import GoogleAds from './GoogleAds'
+import Subscribe from './Subscribe'
+import 'aos/dist/aos.css'; 
+import AOS from 'aos';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <section id="home">
+        <Home />
+    </section>
+    <section id="about">
+        <About />
+    </section>
+    <section id="google-ads">
+        <GoogleAds />
+    </section>
+    
+    <section id="subcribe-form" style={{backgroundColor:"#1B1E61"}}>
+      <Subscribe />
+    </section>
+   </>
   );
 }
 

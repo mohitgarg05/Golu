@@ -1,38 +1,130 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+.home-heading{
+
+  padding-top: 300px;
+  
+}
+.home-heading h2{
+  font-size: 50px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: bold;
+ 
+}
+
+
+
+.about-options p{
+  padding: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+.about-create{
+  
+  height:fit-content ;
+  margin-top: 30px;
+}
+.about-create h4 {
+  font-size: 30px;
+}
+
+.about-options  .about-options-digi{
+  padding: 0;
+}
+
+.about-options .about-options-icon{
+  padding: 0;
+}
+.about-options .about-options-icon i{
+  /* style={{paddingTop:"20px",paddingLeft:"10px",fontSize:"14px",color:"gray"}} */
+
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.hidden-div{
+  width: 500px;
+  border-radius: 20px;
+  padding-left: 20px;
+  
+}
+
+#span-hidden{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  
+
+}
+
+.google-inside{
+  width: 750px;
+}
+
+.google-heading h1{
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+.google-para p{
+  font-size: 25px;
+  padding-top: 30px;
+  font-weight: 500;
+}
+
+
+.sub-box{
+ padding-top: 30px;
+ 
+}
+.sub-box h2{
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sub-box p{
+  font-size: 20px;
+  color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sub-box form{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: fit-content;
+
+}
+.sub-box form i{
+  position: absolute;
+  margin-right: -10px;
+  padding-top: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  color: #ffff;
+}
+.sub-box form input{
+  width: 300px;
+  border: none;
+  background-color: transparent;
+  margin-left:30px ;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.sub-content{
+  height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub-box form input:focus{
+  outline: none;
+}
+
+.sub-box form .form-input{
+  border: solid 1px #ffff;
+  width: fit-content;
+  border-radius: 20px 0 0 20px;
+  
 }

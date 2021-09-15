@@ -160,7 +160,7 @@
   /* margin-top: 180px; */
   max-width: 85%;
   margin-left: 100px;
-
+  position: relative;
   
 
 }
@@ -193,4 +193,20 @@
     letter-spacing: 2px;
     font-size: 20px;
     color: grey;
+  }
+
+  .overlay-heading{
+  
+   
+    top: 500px;
+    left: 320px;
+    position: absolute;
+    z-index: 1;
+  }
+
+
+  .overlay-heading h3{
+    color: #ffff;
+    font-size: 30px;
+    
   }

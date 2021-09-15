@@ -1,15 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
-.home-heading{
-
-  padding-top: 300px;
-  
-}
-.home-heading h2{
-  font-size: 50px;
-  font-family: 'Urbanist', sans-serif;
-  font-weight: bold;
- 
-}
 
 
 
@@ -37,8 +26,7 @@
   padding: 0;
 }
 .about-options .about-options-icon p{
-  /* style={{paddingTop:"20px",paddingLeft:"10px",fontSize:"14px",color:"gray"}} */
-
+ 
   padding-top: 20px;
   padding-left: 10px;
   font-size: 14px;
@@ -128,3 +116,81 @@
   border-radius: 20px 0 0 20px;
   
 }
+
+
+
+.navbar-logo img{
+  width: 80px;
+  height: 80px;
+}
+
+.navbar-content{
+ 
+  margin-top: 20px;
+}
+
+.navbar-options{
+  position: absolute;
+  margin-top: -70px;
+  height: 230px;
+  background-color: #F6C425;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.navbar-options .navbar-option-inside a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-options .navbar-option-inside h2{
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.navbar-button{
+  z-index: 1;
+}
+
+.active2{
+  opacity: 1;
+}
+
+.home-video #myVideo{
+  /* margin-top: 180px; */
+  max-width: 85%;
+  margin-left: 100px;
+
+  
+
+}
+
+.home-video video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;}
+
+
+ .home-inside{
+   padding-top: 150px;
+    
+ }
+ .home-heading{
+   padding-bottom: 20px;
+ }
+  .home-heading #line1
+  {
+    font-size: 45px;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .home-heading #line2{
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: grey;
+  }

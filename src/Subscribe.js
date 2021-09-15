@@ -13,12 +13,12 @@ const Subscribe = () => {
                 </div>
                 <div className="row">
                     <form>
-                                <i class="fa fa-envelope"></i>  
-                                <div className="form-input">
-                                    <input />
-                                 </div>
-                                
-                                <button>Subscribe</button>
+                        <i class="fa fa-envelope"></i>  
+                        <div className="form-input">
+                            <input />
+                            </div>
+                        
+                        <button>Subscribe</button>
                     </form>
                 </div>
               </div>

@@ -24,8 +24,8 @@ const About = () => {
                             <p>Digital Strategy</p>
                         </div>
                         <div className="col-md-1 about-options-icon">  
-                            <p><FontAwesomeIcon icon={hidden? faChevronDown : faChevronUp} onClick={()=>sethidden(!hidden)}/></p>
-                            {/* <i class= {hidden?"fas fa-chevron-down":"fas fa-chevron-up"} onClick={()=>sethidden(!hidden)} ></i> */}
+                            <p><FontAwesomeIcon icon={hidden? faChevronDown : faChevronUp} style={{animationDuration:"3s"}} onClick={()=>sethidden(!hidden)}/></p>
+                           
                         </div>
                         
                     </div>

@@ -14,14 +14,9 @@ const Home = () => {
                     <h2 id="line1">Web Agency of Sweden </h2>
                    <h2 id="line2"> We are NOT GOOD for your competitors</h2>
                 </div>
-                <div className=" overlay-heading" style={{width:"fit-content"}}>
-                    
-                    <h3>We create world-class digital products,web design, and branding.</h3>
-                 
-
-                </div>
-                <div className="home-video" data-aos = "fade-down"  data-aos-duration="1000" data-aos-delay="100">
-                    <video muted controls loop autoPlay id="myVideo">
+                
+                <div className=" home-video" data-aos = "fade-down"  data-aos-duration="1000" data-aos-delay="100">
+                    <video muted controls loop autoPlay  id="myVideo">
                             <source src={Video} type="video/mp4" />
                             Your browser does not support HTML5 video.
                         </video>

@@ -3,8 +3,8 @@ import React from 'react'
 const Subscribe = () => {
     return (
         <div className="container sub-content">
-            <div className="row sub-inside" style={{marginTop:"150px"}}>
-            <div className="col-md-auto  sub-box">
+            <div className="row sub-inside" style={{marginTop:"30px"}} >
+            <div className="col-md-auto  sub-box" >
                 <div className="row">
                         <h2>Subscribe</h2>
                 </div>

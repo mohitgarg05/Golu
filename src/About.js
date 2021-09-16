@@ -4,6 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faChevronDown , faChevronUp
   } from '@fortawesome/free-solid-svg-icons';
+  import Logo1 from './img/branding.jpg'
+  import Logo2 from './img/digital.jpg'
+  import Logo3 from './img/google.jpg'
+  import Logo4 from './img/picture12.jpg'
+  import Logo5 from './img/picture13.jpg'
 const About = () => {
     const [hidden, sethidden] = useState(true)
     const [hidden2, sethidden2] = useState(true)
@@ -15,10 +20,54 @@ const About = () => {
     return (
         <div className="container about-content">
             <div className="row about-inside" style={{marginTop:"200px"}}>
-                <div className="col-md-5 about-create">
-                    <h4 data-aos = "fade-down"  data-aos-duration="1000" data-aos-delay="100">We create world-class digital products,web design, and branding.</h4>
-                </div>
-                <div className="col offset-md-2 about-options " data-aos = "fade-down"  data-aos-duration="1000" data-aos-delay="100">
+                
+                <div className="row services">
+                    <div className="col-md-4 image"  >
+                            <img src={Logo2}></img>
+                            <div className="image-overlay">
+                                <div className="image-title">
+                                    Digital Strategy
+                                </div>
+                                <p className="image-dis">
+                                We start each new digital product design partnership
+                                with an indepth discovery phase to immerse
+                                ourselves in your business. Our designers
+                                interview stakeholders, conduct user research,
+                                analyze your competition, and consolidate content.
+                                The result is an action plan on executing a holistic
+                                brand and user experience.
+                                                                </p>
+                            </div>
+                    </div>
+                    <div className="col-md-8" >
+                        <div className="row"  >
+                            <div className="col-md-6" >
+                                <img src={Logo1} ></img>
+                            </div>
+                            <div className="col-md-5 ">
+                                <img src={Logo3} ></img>
+                            </div>
+                   
+                        </div>
+                        <div className="row"  style={{marginTop:"10px"}}>
+                            <div className="col-md-6">
+                                <img src={Logo4}></img>
+                            </div>
+                            <div className="col-md-4">
+                                <img src={Logo5}></img>
+                            </div>
+                        </div>
+                    </div>
+                   
+                   
+                 </div>
+                 <div className="row" style={{marginTop:"10px"}}>
+                    <div className="col-md-auto">
+                            <img src={Logo5} style={{width:"1200px",height:"400px"}}></img>
+                    </div>
+                 </div>
+               
+                {/* <div className="col offset-md-2 about-options " data-aos = "fade-down"  data-aos-duration="1000" data-aos-delay="100">
                     <div className="row" >
                         <div className="col-md-auto about-options-digi " >
                             <p>Digital Strategy</p>
@@ -111,7 +160,7 @@ const About = () => {
                     </div>
     
                   
-                </div>
+                </div> */}
             </div>
             
         </div>

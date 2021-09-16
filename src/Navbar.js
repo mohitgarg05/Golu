@@ -15,11 +15,11 @@ const Navbar = () => {
     return (<>
         <div className="container navbar-content">
             <div className="row navbar-inside" >
-                <div className="row navbar-row">
-                    <div className="col-md-auto offset-md-1 navbar-logo">
+                <div className="row navbar-row" >
+                    <div className="col-md-1 col-sm-2 offset-md-1 navbar-logo" >
                         <img src={Logo}></img>
                     </div>
-                    <div className="col-md-auto offset-md-9 navbar-button" onClick={openOptions} >
+                    <div className="col-md-1 col-sm-2 offset-md-9 offset-sm-8 navbar-button" onClick={openOptions}  >
                     {!open? <>
                         <div className="row" style={{border:"solid",width:"30px",marginTop:" 32px"}}></div>
                         <div className="row" style={{border:"solid",width:"30px",marginTop:"5px"}}></div></>
@@ -30,7 +30,7 @@ const Navbar = () => {
                    
                 </div>
             </div>
-            <div className="col-md-2 offset-md-8 navbar-options" id="open">
+            <div className="col-md-2 offset-md-8 offset-sm-4 navbar-options" id="open">
             <div className="row navbar-option-inside" style={{marginTop:"29px"}}>
                 <div className="row">
                     <a href=""><h2>Home</h2></a>

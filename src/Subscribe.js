@@ -45,7 +45,7 @@ const Subscribe = () => {
 
                     </div>
                     <div className="col-md-2 footer-fb">
-                    <a><i class="fab fa-snapchat"></i></a>
+                    <a href="https://www.snapchat.com/add/webagencyofswed?share_id=9QBoujlNNyI&locale=sv-SE" target="_blank"><i class="fab fa-snapchat"></i></a>
                     </div>
                     <div className="col-md-2 footer-fb">
                     <a href="https://www.tiktok.com/@webagencyofsweden?lang=sv-SE" target="_blank"> <i class="fab fa-tiktok"></i></a>

@@ -218,6 +218,7 @@
 
   .image img{
     display: block;
+   
   }
 
   .image .image-overlay{
@@ -250,4 +251,18 @@
   .image .image-dis{
     width: 400px;
     font-size: 20px;
+    
+  }
+  
+  .sub-inside .footer-line p{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px;
+  }
+
+ 
+  .sub-inside .footer-links .footer-fb i{
+    font-size: 30px;
+    color: #ffff;
   }

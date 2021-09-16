@@ -19,10 +19,8 @@ function App() {
     <section id="about">
         <About />
     </section>
-    <section id="google-ads">
-        <GoogleAds />
-    </section>
-    <section id="subcribe-form" style={{backgroundColor:"#1B1E61"}}>
+ 
+    <section id="subcribe-form" style={{backgroundColor:"#1B1E61" , marginTop:"20px"}}>
       <Subscribe />
     </section>
    </>
